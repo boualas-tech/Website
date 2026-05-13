@@ -147,6 +147,32 @@
     .section-header p { color: var(--muted); max-width: 580px; margin: 0 auto; font-size: 1rem; }
     .divider { width: 60px; height: 3px; background: linear-gradient(90deg, var(--green), var(--gold)); border-radius: 2px; margin: 20px auto 0; }
 
+    /* ─── HERO LOGO IMAGE ───────────────────────────────────────────── */
+    .hero-main-logo-wrap {
+      margin-bottom: 28px;
+    }
+    .hero-main-logo-wrap img {
+      display: block;
+      width: auto;
+      max-width: 240px;
+      height: auto;
+      max-height: 120px;
+      object-fit: contain;
+      filter: drop-shadow(0 0 18px rgba(59,170,75,0.35));
+    }
+    @media (max-width: 900px) {
+      .hero-main-logo-wrap img {
+        max-width: 180px;
+        max-height: 90px;
+      }
+    }
+    @media (max-width: 640px) {
+      .hero-main-logo-wrap img {
+        max-width: 140px;
+        max-height: 70px;
+      }
+    }
+
     /* ─── HERO ───────────────────────────────────────────────────────── */
     #hero {
       min-height: 100vh; display: flex; align-items: center;
@@ -583,11 +609,6 @@
   <div class="hero-bg-glow2"></div>
   <div class="hero-inner">
     <div class="hero-content reveal">
-      <!-- LOGO IMPOSANT ET CLASSE -->
-      <div class="hero-main-logo-wrap">
-        <img src="bt-logo.png" alt="BOUALA'S TECH. Logo">
-      </div>
-
       <div class="hero-badge">
         <span class="badge-dot"></span>
         Disponible à Pointe-Noire &amp; OCH
@@ -981,7 +1002,7 @@
         <h4 style="font-family:var(--font-b);font-size:.8rem;text-transform:uppercase;letter-spacing:.15em;color:var(--muted);margin-bottom:12px;">Suivez-nous</h4>
         <div class="social-links">
           <a href="#" class="social-btn"><span class="social-icon">📘</span>Facebook</a>
-          <a href="#" class="social-btn"><span class="social-icon">💼</span>LinkedIn</a>
+          <a href="https://www.linkedin.com/in/bouala-s-tech-795537409" class="social-btn" target="_blank"><span class="social-icon">💼</span>LinkedIn</a>
           <a href="https://wa.me/242053253018" class="social-btn" target="_blank"><span class="social-icon">💬</span>WhatsApp</a>
         </div>
       </div>
@@ -1077,7 +1098,7 @@
       <p>Votre partenaire technologique de confiance à Pointe-Noire. Des solutions IT fiables pour propulser vos ambitions.</p>
       <div class="social-links">
         <a href="#" class="social-btn"><span class="social-icon">📘</span></a>
-        <a href="#" class="social-btn"><span class="social-icon">💼</span></a>
+        <a href="https://www.linkedin.com/in/bouala-s-tech-795537409" class="social-btn" target="_blank"><span class="social-icon">💼</span></a>
         <a href="https://wa.me/242053253018" class="social-btn" target="_blank"><span class="social-icon">💬</span></a>
       </div>
     </div>
